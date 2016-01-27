@@ -35,15 +35,11 @@ body {
 
 /* Sapins */
 .sapin {
-    width: 100px;
-    height: 100px;
+	width: 100px;
+	height: 100px;
+	background-size: 100px 100px;
     background-image: url('../img/sapin-neige1.png');
-    -webkit-transition: width 2s, height 4s; /* For Safari 3.1 to 6.0 */
-    transition: width 2s, height 2s;
+   	transition: all .2s ease-in-out;
 }
 
-.sapin:hover {
-    width: 300px;
-    height: 300px;
-}
-
+.sapin:hover { transform: scale(1.6); }
