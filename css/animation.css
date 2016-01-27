@@ -34,12 +34,23 @@ body {
 }
 
 /* Sapins */
-.sapin {
+@-webkit-keyframes obstacle {
+	0% {
+		visibility: visible;
+	}
+	99% {
+		transform: scale(3);
+	}
+	100% {
+		transform: scale(1);
+		visibility: hidden;
+	}
+}
+
+.obstacle {
 	width: 100px;
 	height: 100px;
 	background-size: 100px 100px;
     background-image: url('../img/sapin-neige1.png');
-   	transition: all .2s ease-in-out;
+   	-webkit-animation: obstacle 2s 2s linear infinite;
 }
-
-.sapin:hover { transform: scale(1.6); }
