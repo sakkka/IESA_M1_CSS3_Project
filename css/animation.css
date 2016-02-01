@@ -38,8 +38,9 @@ body {
 	0% {
 		visibility: visible;
 	}
-	99% {
+	50% {
 		transform: scale(3);
+		visibility: hidden;
 	}
 	100% {
 		transform: scale(1);
@@ -52,7 +53,7 @@ body {
 	height: 100px;
 	background-size: 100px 100px;
     background-image: url('../img/sapin1.png');
-   	-webkit-animation: obstacle 2s 2s linear infinite;
+   	-webkit-animation: obstacle 4s 2s linear infinite;
 }
 
 .sapin2 {
@@ -60,5 +61,5 @@ body {
 	height: 100px;
 	background-size: 100px 100px;
     background-image: url('../img/sapin2.png');
-   	-webkit-animation: obstacle 2s 2s linear infinite;
+   	-webkit-animation: obstacle 4s 3s linear infinite;
 }
