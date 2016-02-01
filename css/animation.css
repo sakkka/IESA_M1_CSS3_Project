@@ -42,3 +42,33 @@ body {
 position: absolute;
 	z-index: -99;
 } 
+
+#skieurImg {
+	width: 150px;
+	height: auto;
+	position: absolute;
+	left: 50%;
+	margin-left: -150px;
+	bottom: 30px;
+
+}
+
+@-webkit-keyframes leftSkieurAnim {
+  0% 	{left:50%;}
+  50% 	{left:10%;}
+  100%  {left:50%;}
+}
+
+.left {
+	-webkit-animation: leftSkieurAnim 1s 0s linear;
+}
+
+@-webkit-keyframes rightSkieurAnim {
+  0% 	{left:50%;}
+  50% 	{left:90%;}
+  100%  {left:50%;}
+}
+
+.right {
+	-webkit-animation: rightSkieurAnim 1s 0s linear;
+}
