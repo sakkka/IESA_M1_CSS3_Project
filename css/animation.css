@@ -41,7 +41,7 @@ body {
 		transform: scale(3);
 		visibility: hidden;
 		bottom: 200px;
-		left: 20px;
+		left: 60px;
 	}
 	100% {
 		transform: scale(1);
@@ -57,7 +57,39 @@ body {
 		transform: scale(3);
 		visibility: hidden;
 		bottom: 200px;
-		right:20px;
+		right:60px;
+	}
+	100% {
+		transform: scale(1);
+		visibility: hidden;
+	}
+}
+
+@-webkit-keyframes obstacleLeftClose {
+	0% {
+		visibility: visible;
+	}
+	30% {
+		transform: scale(3);
+		visibility: hidden;
+		bottom: 25%;
+		left: 2%;
+	}
+	100% {
+		transform: scale(1);
+		visibility: hidden;
+	}
+}
+
+@-webkit-keyframes obstacleRightClose {
+	0% {
+		visibility: visible;
+	}
+	30% {
+		transform: scale(3);
+		visibility: hidden;
+		bottom: 25%;
+		right: 2%;
 	}
 	100% {
 		transform: scale(1);
@@ -85,7 +117,7 @@ body {
     position :absolute;
     left: 10%;
     bottom: 30%;
-   	-webkit-animation: obstacleLeft 4s 0s linear infinite;
+   	-webkit-animation: obstacleLeftClose 4s 0s linear infinite;
 
 }
 
@@ -110,7 +142,7 @@ body {
     position :absolute;
     right: 10%;
     bottom: 30%;
-    -webkit-animation: obstacleRight 4s 0s linear infinite;
+    -webkit-animation: obstacleRightClose 4s 0s linear infinite;
 }
 
 
