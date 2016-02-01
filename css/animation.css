@@ -3,7 +3,7 @@ html {
 }
 
 body {
-	background-color: blue;
+
 	height: 100%;
 }
 
@@ -22,16 +22,17 @@ body {
 	height: 600px;
 	overflow: hidden;
 	z-index: 10;
+	position: absolute;
 }
+
+
 
 
 @-webkit-keyframes snowAnim {
   from {margin-top: -1080px;}
   to { margin-top: 0px;}
 }
-.background1:{
-	color: fff;
-}
+
 
 /* Sapins */
 @-webkit-keyframes obstacle {
@@ -108,3 +109,14 @@ body {
     bottom: 60%;
    	-webkit-animation: obstacle2 4s 0s linear infinite;
 }
+
+
+.background1 {
+	background-image:url('../img/background.jpg');
+	background-size: 100%; 
+	width: 100%;
+	height : 600px;
+	position: absolute;
+	z-index: -99;
+} 
+
