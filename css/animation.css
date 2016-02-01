@@ -26,8 +26,6 @@ body {
 }
 
 
-
-
 @-webkit-keyframes snowAnim {
   from {margin-top: -1080px;}
   to { margin-top: 0px;}
