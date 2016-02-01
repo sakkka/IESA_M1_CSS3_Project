@@ -109,6 +109,16 @@ body {
     bottom: 60%;
    	-webkit-animation: obstacle2 4s 0s linear infinite;
 }
+.snowman {
+	width: 100px;
+	height: 100px;
+	background-size: 100px 100px;
+    background-image: url('../img/snowman22.png');
+    position :absolute;
+    right: 50%;
+    bottom: 10%;
+   	-webkit-animation: obstacle 4s 0s linear infinite;
+}
 
 
 .background1 {
