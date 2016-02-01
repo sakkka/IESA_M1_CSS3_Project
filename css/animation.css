@@ -118,6 +118,7 @@ body {
     right: 50%;
     bottom: 10%;
    	-webkit-animation: obstacle 4s 0s linear infinite;
+   	z-index: -5;
 }
 
 
