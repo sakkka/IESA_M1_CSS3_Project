@@ -120,8 +120,6 @@ body {
 	z-index: -99;
 } 
 
-<<<<<<< HEAD
-=======
 #skieurImg {
 	width: 150px;
 	height: auto;
@@ -151,4 +149,3 @@ body {
 .right {
 	-webkit-animation: rightSkieurAnim 1s 0s linear;
 }
->>>>>>> 5c097ea438617a2b6c376a4ca9ec612ad039488e
