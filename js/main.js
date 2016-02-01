@@ -13,3 +13,7 @@ $(document).keydown(function(event){
 			$('#skieurImg').addClass('right');
 	}
 });
+
+
+var percent=1;
+$(".sapin1").css('background-color:', "red");

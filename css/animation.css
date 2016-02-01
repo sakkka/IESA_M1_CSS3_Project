@@ -11,7 +11,7 @@ body {
 	background-image:url('../img/snow.png');
 	background-size: 100% 1080px;
 	background-repeat: repeat;
-	height: 2160px;
+	height: 1160px;
 	width: 100%;
 	margin : 0;
 	-webkit-animation: snowAnim 4s 0s linear infinite;
@@ -64,11 +64,12 @@ body {
 }
 
 /* SAPINS LES PLUS lointains DU SKIEUR */
+
 .sapin1 {
 	width: 100px;
 	height: 100px;
 	background-size: 100px 100px;
-    background-image: url('../img/sapin1.png');
+	background-image: url('../img/sapin1.png');
     position :absolute;
     left: 10%;
     bottom: 60%;
@@ -111,10 +112,11 @@ body {
 
 .background1 {
 	background-image:url('../img/background.jpg');
+	background-repeat: no-repeat;
+	
 	background-size: 100%; 
 	width: 100%;
 	height : 100%;
-	position: absolute;
 	z-index: -99;
 } 
 
