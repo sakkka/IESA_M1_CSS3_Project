@@ -1,6 +1,5 @@
-<<<<<<< HEAD
 html {
-	height: 
+	height:100%;
 }
 
 body {
@@ -11,7 +10,7 @@ body {
 .neige {
 	background-image:url('../img/snow.png');
 	background-size: 100% 1080px;
-	background-repeat: repeat; 
+	background-repeat: repeat;
 	height: 2160px;
 	width: 100%;
 	margin : 0;
@@ -20,7 +19,7 @@ body {
 
 .animNeigne {
 	width: 100%;
-	height: 600px;
+	height: 100%;
 	overflow: hidden;
 	z-index: 10;
 	position: absolute;
@@ -34,12 +33,100 @@ body {
   to { margin-top: 0px;}
 }
 
+
+/* Sapins */
+@-webkit-keyframes obstacle {
+	0% {
+		visibility: visible;
+	}
+	50% {
+		transform: scale(3);
+		visibility: hidden;
+		bottom: 200px;
+	}
+	100% {
+		transform: scale(1);
+		visibility: hidden;
+	}
+}
+
+@-webkit-keyframes obstacle2 {
+	0% {
+		visibility: visible;
+	}
+	30% {
+		transform: scale(3);
+		visibility: hidden;
+		bottom: 200px;
+	}
+	100% {
+		transform: scale(1);
+		visibility: hidden;
+	}
+}
+
+/* SAPINS LES PLUS lointains DU SKIEUR */
+.sapin1 {
+	width: 100px;
+	height: 100px;
+	background-size: 100px 100px;
+    background-image: url('../img/sapin1.png');
+    position :absolute;
+    left: 10%;
+    bottom: 60%;
+   	-webkit-animation: obstacle 4s 0s linear infinite;
+}
+
+.sapin2 {
+	width: 100px;
+	height: 100px;
+	background-size: 100px 100px;
+    background-image: url('../img/sapin2.png');
+    position :absolute;
+    right: 10%;
+    bottom: 60%;
+   	-webkit-animation: obstacle 4s 0s linear infinite;
+}
+
+/* SAPINS LES PLUS PROCHES DU SKIEUR */
+.sapin3 {
+	width: 100px;
+	height: 100px;
+	background-size: 100px 100px;
+    background-image: url('../img/sapin1.png');
+    position :absolute;
+    right: 20%;
+    bottom: 60%;
+   	-webkit-animation: obstacle2 4s 0s linear infinite;
+}
+.sapin4 {
+	width: 100px;
+	height: 100px;
+	background-size: 100px 100px;
+    background-image: url('../img/sapin2.png');
+    position :absolute;
+    left: 20%;
+    bottom: 60%;
+   	-webkit-animation: obstacle2 4s 0s linear infinite;
+}
+.snowman {
+	width: 100px;
+	height: 100px;
+	background-size: 100px 100px;
+    background-image: url('../img/snowman22.png');
+    position :absolute;
+    right: 50%;
+    bottom: 10%;
+   	-webkit-animation: obstacle 4s 0s linear infinite;
+}
+
+
 .background1 {
 	background-image:url('../img/background.jpg');
 	background-size: 100%; 
 	width: 100%;
-	height : 600px;
-position: absolute;
+	height : 100%;
+	position: absolute;
 	z-index: -99;
 }
 
