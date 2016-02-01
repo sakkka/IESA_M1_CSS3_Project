@@ -33,7 +33,7 @@ body {
 
 
 /* Sapins */
-@-webkit-keyframes obstacle {
+@-webkit-keyframes obstacleLeft {
 	0% {
 		visibility: visible;
 	}
@@ -41,6 +41,7 @@ body {
 		transform: scale(3);
 		visibility: hidden;
 		bottom: 200px;
+		left: 20px;
 	}
 	100% {
 		transform: scale(1);
@@ -48,14 +49,15 @@ body {
 	}
 }
 
-@-webkit-keyframes obstacle2 {
+@-webkit-keyframes obstacleRight {
 	0% {
 		visibility: visible;
 	}
-	30% {
+	50% {
 		transform: scale(3);
 		visibility: hidden;
 		bottom: 200px;
+		right:20px;
 	}
 	100% {
 		transform: scale(1);
@@ -63,50 +65,52 @@ body {
 	}
 }
 
-/* SAPINS LES PLUS lointains DU SKIEUR */
-
+/* SAPINS LEFT */
 .sapin1 {
 	width: 100px;
 	height: 100px;
 	background-size: 100px 100px;
 	background-image: url('../img/sapin1.png');
     position :absolute;
-    left: 10%;
-    bottom: 60%;
-   	-webkit-animation: obstacle 4s 0s linear infinite;
+    left: 30%;
+    bottom: 35%;
+   	-webkit-animation: obstacleLeft 4s 0s linear infinite;
 }
 
 .sapin2 {
 	width: 100px;
 	height: 100px;
 	background-size: 100px 100px;
-    background-image: url('../img/sapin2.png');
+    background-image: url('../img/sapin1.png');
     position :absolute;
-    right: 10%;
-    bottom: 60%;
-   	-webkit-animation: obstacle 4s 0s linear infinite;
+    left: 10%;
+    bottom: 30%;
+   	-webkit-animation: obstacleLeft 4s 0s linear infinite;
+
 }
 
-/* SAPINS LES PLUS PROCHES DU SKIEUR */
+
+/* SAPINS RIGHT */
 .sapin3 {
 	width: 100px;
 	height: 100px;
 	background-size: 100px 100px;
-    background-image: url('../img/sapin1.png');
+    background-image: url('../img/sapin4.png');
     position :absolute;
-    right: 20%;
-    bottom: 60%;
-   	-webkit-animation: obstacle2 4s 0s linear infinite;
+    right: 30%;
+    bottom: 35%;
+   	-webkit-animation: obstacleRight 4s 0s linear infinite;
 }
+
 .sapin4 {
-	width: 100px;
+   	width: 100px;
 	height: 100px;
 	background-size: 100px 100px;
-    background-image: url('../img/sapin2.png');
+    background-image: url('../img/sapin4.png');
     position :absolute;
-    left: 20%;
-    bottom: 60%;
-   	-webkit-animation: obstacle2 4s 0s linear infinite;
+    right: 10%;
+    bottom: 30%;
+    -webkit-animation: obstacleRight 4s 0s linear infinite;
 }
 
 
