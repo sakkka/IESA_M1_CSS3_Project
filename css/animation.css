@@ -70,7 +70,7 @@ body {
 		visibility: visible;
 	}
 	30% {
-		transform: scale(3);
+		transform: scale(2);
 		visibility: hidden;
 		bottom: 25%;
 		left: 2%;
@@ -86,7 +86,7 @@ body {
 		visibility: visible;
 	}
 	30% {
-		transform: scale(3);
+		transform: scale(2);
 		visibility: hidden;
 		bottom: 25%;
 		right: 2%;
