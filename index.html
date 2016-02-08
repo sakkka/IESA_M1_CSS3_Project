@@ -17,6 +17,12 @@
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
     </head>
     <body>
+                <!-- audio ;) -->
+        <audio id="MonLecteur" autoplay loop controls>
+            <source src="sound/sound.ogg" type="audio/ogg" />
+            <source src="sound/sound.wav" type="audio/wav" />
+            Échec, la balise audio n'est pas reconnue par votre navigateur
+        </audio>
         <div class="background1"></div>
         <div class="obstacle">
             <div class="sapin1">
@@ -40,12 +46,7 @@
             </div>    
         </div>
 
-        <!-- audio ;) -->
-        <audio id="MonLecteur" autoplay loop>
-            <source src="sound/sound.ogg" type="audio/ogg" />
-            <source src="sound/sound.wav" type="audio/wav" />
-            Échec, la balise audio n'est pas reconnue par votre navigateur
-        </audio>
+
 
         <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>

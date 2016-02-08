@@ -11,6 +11,10 @@ body {
 	min-width: 800px;
 }
 
+#MonLecteur {
+	position: absolute;
+}
+
 .neige {
 	background-image:url('../img/snow.png');
 	background-size: 100% 1080px;
