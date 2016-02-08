@@ -19,5 +19,5 @@ $(document).keydown(function(event){
 });
 
 
-var percent=1;
-$(".sapin1").css('background-color:', "red");
+//var percent=1;
+//$(".sapin1").css('background-color:', "red");
